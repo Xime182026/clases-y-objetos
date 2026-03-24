@@ -15,5 +15,5 @@ class Perro:
         print("Me estoy rascando" )
         
 perro1 = perro("roki", 5)
-perrito = Perro("firulais" .3)
+perrito = Perro("firulais" , 3)
 print(perro1.nombre, perro1.edad)
