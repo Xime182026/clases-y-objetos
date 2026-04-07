@@ -28,4 +28,4 @@ class SistemaGestiondeproductos:
     def mostrar_producto(self):
         print("lista de productos")  
         print("-" *30)
-        for producto in    
+        for producto 
