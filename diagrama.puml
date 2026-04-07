@@ -1,0 +1,18 @@
+@startuml
+
+abstract class Persona {
+  nombre: str
+}
+
+class Estudiante {
+  matricula: str
+}
+
+class Profesor {
+  departamento: str
+}
+
+Persona <|-- Estudiante
+Persona <|-- Profesor
+
+@enduml
